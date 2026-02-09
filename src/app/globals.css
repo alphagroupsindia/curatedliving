@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  background-color: black !important;
+}
+
+.container-custom
+{
+  max-width: 1000px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 11px!important;
+  color: white!important;;
+}
+.slick-arrow
+{
+  display: none!important;
+}
+
+.form-control
+{
+  border-radius: 0px!important;
+  background-color: transparent!important;
+  border: none !important;
+  border-bottom: 1px solid #aeaeae!important;
+  color: #ffcc00!important;
+
+
+}
+.form-control::placeholder
+{
+  color: #999!important; 
+
+}
+
+.form-control:focus {
+  color: rgb(176, 176, 176)!important;
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none!important;
+}
+.navbar-toggler-icon {
+    border: 1px solid white;
+    background-size: 100%;
+    padding: 18px;
+    background-color: rgb(196, 196, 196);
+}
+
+span
+{
+  margin-top: -300px;
+  position: absolute;
+}
+button.navbar-toggler.collapsed::before
+{
+  content: '☰';
+}
+button.navbar-toggler.collapsed {
+  
+  background: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  border:none;
+  color:rgb(255, 255, 255);
+  height: 28px;
+}
+
+button.navbar-toggler
+{
+  background: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  border:none;
+  color:rgb(255, 255, 255);
+  height: 28px;
+}
+button.navbar-toggler::before
+{
+  content: 'x';
+  font-weight: 600;
+  font-size: 25px;
+  
+}
+button.navbar-toggler:focus
+{
+  box-shadow: none;;
+}
+
