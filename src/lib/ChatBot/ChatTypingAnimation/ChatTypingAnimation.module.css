@@ -1,0 +1,48 @@
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.typing {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    margin: 0 2px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: blink 1.5s infinite;
+}
+
+.dot1 {
+    animation-delay: 0s;
+}
+
+.dot2 {
+    animation-delay: 0.5s;
+}
+
+.dot3 {
+    animation-delay: 1s;
+}
+.noShow
+{
+    width: 1px;;
+    height: 1px;
+    color:aliceblue;
+    border:none;
+    outline: none; 
+}
+.noShow:focus,.noShow:active,.noShow:hover{
+    border: none;
+}

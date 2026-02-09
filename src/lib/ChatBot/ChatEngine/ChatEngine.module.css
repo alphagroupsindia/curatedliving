@@ -1,0 +1,60 @@
+.question
+{
+    list-style: none;
+    padding-right: 20px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.answer
+{
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.ans
+{
+    border:2px solid black;
+    display: inline-block;
+    border-radius: 1px;
+    margin-top: 10px;
+    padding:1px 6px;
+    color: rgb(17, 17, 17);
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.noShow
+{
+    width: 1px;;
+    height: 1px;
+    color:aliceblue;
+    border:none;
+    outline: none; 
+}
+
+.noShow:focus{
+    border-color: transparent;
+}
+
+.ul
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.italic
+{
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+
+}

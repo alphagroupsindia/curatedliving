@@ -1,0 +1,38 @@
+.button {
+  border-radius: 1px;
+  background-color: rgb(255, 204, 0);;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 1px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid rgb(255, 204, 0);;
+  margin-right: 10px;
+  font-family: "Alegreya Sans", sans-serif;
+
+}
+.wrapper {
+  margin-top: 10px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: white;
+  cursor: pointer;
+  color:rgb(0, 0, 0);
+}
+
+.whatsApp
+{
+  background-color: green;
+  color: #ffffff;
+  border: 1.5px solid #2eb801;
+  padding:6px 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.whatsApp:hover
+{
+  background-color:  #249100;
+
+}

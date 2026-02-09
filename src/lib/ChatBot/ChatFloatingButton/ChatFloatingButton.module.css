@@ -1,0 +1,73 @@
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(-5px);
+    }
+    20% {
+      transform: translateY(-10px);
+    }
+    30% {
+      transform: translateY(-15px);
+    }
+    40% {
+      transform: translateY(-17px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-17px);
+    }
+    70% {
+      transform: translateY(-15px);
+    }
+    80% {
+      transform: translateY(-10px);
+    }
+    90% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 2s ease infinite;
+  }
+  
+  .bounceOnce {
+    animation: bounce 2s ease 2;
+  }
+  
+  .chatButton
+  {
+   position: fixed;
+   right: 60px;
+   bottom:60px;
+  background-color: #0e9540;
+  padding: 6px 15px;
+  border-radius: 18px;
+  z-index: 1;
+  border:none;
+  font-family: 'Khand', sans-serif;
+  font-size: 20px;
+  color:rgb(238, 238, 238);
+  }
+  .closeButton
+  {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 40px;
+    color:rgb(179, 149, 115);
+    font-weight: 600;
+    bottom:25px;
+
+  }
+
+  .closeBg
+  {
+    background-color: rgb(186, 186, 186);
+  }

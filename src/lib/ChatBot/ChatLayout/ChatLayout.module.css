@@ -1,0 +1,64 @@
+.chatLayout {
+  position: fixed;
+  right: 50px;
+  color: black;
+  bottom: 100px;
+  z-index: 100;
+  height: 80vh;
+  background: white;
+  width: 350px;
+  border-radius: 19px;
+  font-family: "PT Sans Narrow";
+  padding-top: 80px;
+}
+.headerBar {
+  position: absolute;
+  top: 0px;
+  height: 80px;
+  width: 100%;
+  border-radius: 18px 18px 0px 0px;
+  padding: 5px;
+  background-color: #272727;
+}
+
+.logoText {
+  color: rgb(230, 230, 230);
+  font-family: "PT Serif", Times, serif;
+  letter-spacing: 1.6px;
+  font-size: 18px;
+}
+
+.chatEngine {
+  padding-left: 15px;
+  padding-top: 15px;
+  height: 400px;
+  overflow: auto;
+}
+.closeButtonWrap
+{
+  text-align: right;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.closeButton
+{
+  background-color: transparent;
+  color:rgb(181, 181, 181);
+  padding:2px 6px;
+}
+
+@media (max-width: 767px) {
+.chatLayout {
+    position: fixed;
+        width: 100%;
+        right: 0;
+        left: 10px;
+        top: 0;
+        height: 100%;
+        left: 0;
+        border-radius: 0;
+  }
+  .chatEngine {
+    height: 480px;
+  }
+}
