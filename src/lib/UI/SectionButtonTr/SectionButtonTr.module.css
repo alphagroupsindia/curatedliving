@@ -1,0 +1,20 @@
+.button {
+  border-radius: 10px;
+  background-color: #fd4b3700;
+  color:#00bbd3;
+  text-decoration: none;
+  padding: 12px 20px 12px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 2px solid #00bbd3;
+}
+.wrapper {
+  margin-top: 40px;
+}
+.button:hover {
+  background-color: #00bbd3;
+  cursor: pointer;
+  color:white;
+}

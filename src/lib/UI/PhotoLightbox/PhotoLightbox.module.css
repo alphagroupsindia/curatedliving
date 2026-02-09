@@ -1,0 +1,153 @@
+.photoLightbox {
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 2px;
+  position: relative;
+}
+.lightboxImage {
+  width: 100%;
+  height: auto;
+}
+
+/* PhotoLightbox.module.css */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.modal {
+  position: relative;
+  background-color: #0000;
+  padding: 0px;
+  height: 90%;
+  width: 80%;
+  overflow: hidden;
+  
+}
+
+.closeButton {
+  position: absolute;
+  top: -10px;
+  color: #696969;
+  right: 2px;
+  padding: 4px 8px;
+  border-radius: 22px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 22px;
+  z-index: 100;
+}
+.closeButton:hover {
+  color: #dedede;
+}
+
+.prevButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  padding: 40px;
+  border-radius: 22px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #cacaca;
+  font-size: 60px;
+  z-index: 100;
+}
+
+.prevButton {
+  left: 0px;
+}
+
+.nextButton {
+  right: 0px;
+}
+
+
+
+.strip {
+  position: absolute;;
+  bottom: 0;
+  color: #ffcc00;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+  -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+
+}
+
+.lightboxImage
+{
+  width: auto;
+  height: 100%;
+}
+.scroll{
+  position: relative;
+
+}
+
+.scrollWrap
+{
+  position: absolute;
+  top: 40%;
+}
+.scrollButton
+{
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffffa9;
+}
+.scrollRight
+{
+  right:0;
+}
+.scrollLeft
+{
+  left: 0;
+}
+
+.title{
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  bottom:10px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #ffcc00;
+  padding:4px 7px;
+  bottom: 0px;
+  display: none;;
+}
+.imageWrapper:hover .title
+{
+  display: block;
+}
+
+.reactPlayer
+{
+}

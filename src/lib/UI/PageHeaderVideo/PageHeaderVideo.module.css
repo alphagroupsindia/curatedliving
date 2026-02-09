@@ -1,0 +1,37 @@
+.playerWrapper
+{
+  position: relative;
+
+}
+.pageHeader {
+    font-family: "Saira Semi Condensed", sans-serif;
+    position: absolute;
+    bottom:70px;
+  }
+  
+  .breadcrumbs {
+    margin-left: 45px;
+  }
+  
+  .a {
+    margin-right: 2px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(29, 81, 116);
+  }
+  
+  .h1 {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+
+  .h2 {
+    margin-left: 40px;
+    font-size: 28px;
+  }
+  
+  
+  .span {
+    font-size: 14px;
+  }
+  

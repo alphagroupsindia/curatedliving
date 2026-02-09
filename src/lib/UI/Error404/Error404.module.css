@@ -1,0 +1,22 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+  }
+  
+  .errorMessage {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color:white;
+  }
+  
+  .homeLink {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(198, 198, 198);
+  }
+  
