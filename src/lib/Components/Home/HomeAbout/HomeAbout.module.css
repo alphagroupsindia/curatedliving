@@ -1,0 +1,68 @@
+.homeAbout
+{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.h2
+{
+color: rgb(226, 226, 226);
+font-size: 45px;
+width: 320px;
+font-weight: 600;
+}
+.strong
+{
+font-weight: 700;
+color: #ffcc00;
+}
+
+.p
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color:rgb(146, 146, 146);
+}
+.imageWrap
+{
+    position: relative;
+}
+
+.design
+{
+    position: absolute;
+    height: 150px;;
+    width:70px;
+    border-left: 5px solid #ffcc00;
+    border-top: 5px solid #ffcc00;
+    border-bottom: 5px solid #ffcc00;
+    bottom: -75px;
+    left:-40px;
+}
+.signature
+{
+    position: absolute;
+    font-style: italic;
+    color:rgb(200,200,200);
+    bottom: -60px;
+    left:-20px;
+}
+
+.quote
+{
+    position: absolute;
+    font-size: 120px;
+    color:#ffcc00;
+    font-family:'Times New Roman', Times, serif;
+    right: 0;
+    bottom: -110px;
+}
+@media only screen and (max-width: 767px) {
+    .homeAbout
+    {
+    margin-top: 40px;
+    margin-left: 40px;
+    }
+  }
+  

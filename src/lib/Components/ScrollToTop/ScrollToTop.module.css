@@ -1,0 +1,21 @@
+.scrollToTop
+{
+    position: fixed;
+    bottom: 13px;
+    right: 17px;
+    z-index: 1;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #dfb200;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.scrollToTop::before
+{
+    content: '←';
+    font-size: 22px;
+}

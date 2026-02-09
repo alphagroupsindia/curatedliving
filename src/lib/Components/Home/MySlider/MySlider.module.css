@@ -1,0 +1,155 @@
+.mySlider
+{
+  background-color: #f8f9fa;
+}
+
+.slider
+{
+  width: 100%;
+  height: auto;
+  filter:brightness(0.45)
+}
+
+
+.carousel {
+    z-index: 0;
+}
+.strong
+{
+  color:rgb(255, 204, 0);
+}
+
+.strongPurple
+{
+  color:rgb(73, 9, 223);
+}
+
+.small
+{
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  right: 15%;
+  left: 10%;
+  border-radius: 4px;
+  top:15%;
+  bottom: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: white;
+  text-align: left;
+  width: 70%;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.captionHomeWidth {
+  position: absolute;
+  right: 15%;
+  left: 10%;
+  border-radius: 4px;
+  top:15%;
+  bottom: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: white;
+  text-align: left;
+  width: 70%;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+}
+.captionHomeWidth36 {
+  position: absolute;
+  right: 15%;
+  left: 10%;
+  border-radius: 4px;
+  top:15%;
+  bottom: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: white;
+  text-align: left;
+  font-weight: 700;
+  width: 36%;
+  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+
+}
+.captionBlue {
+  position: absolute;
+  right: 15%;
+  left: 10%;
+  border-radius: 4px;
+  top:15%;
+  bottom: 15%;
+  font-weight: 700;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(5, 126, 239);
+  text-align: left;
+  width: 32%;
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+.subHeading {
+  font-size: 17px;
+}
+
+.certificate {
+  font-weight: 600;
+  border: 1px solid rgb(224, 224, 224);
+  padding: 8px;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.logoWhite {
+  position: absolute;
+  bottom: 40px; 
+  right: 10%; /* Adjust as needed */
+  z-index: 10; /* Ensures the logo is on top */
+}
+
+/* RectangleComponent.module.css */
+
+.animatedRectangle {
+  position: absolute;
+  border-left:3px solid white;
+  border-top:3px solid white;
+  border-bottom:3px solid white;
+  height: 140px;
+  padding: 20px;
+  opacity: 1;
+  transition: opacity 1s ease-in
+}
+
+.textWrapper
+{
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .caption {
+    width: auto;
+  }
+  .textWrapper
+{
+  padding-left: 20px;
+  font-size: 30px;
+}
+}

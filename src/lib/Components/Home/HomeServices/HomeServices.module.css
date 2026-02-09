@@ -1,0 +1,27 @@
+.homeAbout
+{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.h2
+{
+color: rgb(226, 226, 226);
+font-size: 45px;
+width: 320px;
+font-weight: 600;
+margin-top: 15px;
+}
+.strong
+{
+font-weight: 700;
+color: #ffcc00;
+}
+
+
+.p
+{
+    margin-top: 60px;
+    font-size: 16px;
+    color:rgb(146, 146, 146);
+}
