@@ -1,0 +1,43 @@
+.pinkTag {
+  font-size: 13px;
+  background-color: rgb(222 202 239);
+  display: inline-block;
+  border-radius: 15px;
+  color: #22082c;
+  padding: 2px 9px 1px 9px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-right: 7px;
+}
+.tagBoard {
+  display: block;
+  background-color: rgb(224, 224, 224);
+  content: "Hi";
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.h5 {
+  font-size: 16px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius: 2px;
+  font-size: 15px;
+  background-color: rgb(187, 185, 185);
+}
+
+.link
+{
+  color: black;
+  cursor: pointer;
+}
+.link:hover
+{
+  color: rgb(104, 104, 104);
+  cursor: pointer;
+}
+

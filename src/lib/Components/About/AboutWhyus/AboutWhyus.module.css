@@ -1,0 +1,36 @@
+.homeServices
+{
+    padding-top: 80px;
+    background-color: rgb(30, 30, 30);
+    padding-bottom: 80px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.title
+{
+    color: #ffcc00;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.icon
+{
+    color:#dedede;
+}
+.description
+{
+    color: rgb(200, 200, 200);
+    text-align: left;
+}
+.h2
+{
+color: rgb(198, 198, 198);
+font-size: 30px;
+font-weight: 600;
+}
+.strong
+{
+font-weight: 700;
+color: #ffcc00;
+}

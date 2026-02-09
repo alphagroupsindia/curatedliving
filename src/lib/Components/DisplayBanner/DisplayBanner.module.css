@@ -1,0 +1,30 @@
+.bannerWrapper
+{
+  width: 100%;
+  padding-top: 100px;
+      padding-bottom: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    .bannerMobile {
+      width: 100%;
+      height: auto;
+    }
+    .banner
+    {
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) {
+    .banner {
+      width: 100%;
+      height: auto;
+    }
+    .bannerMobile
+    {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,39 @@
+.form
+{
+    padding: 25px;
+    height: 100%;
+    padding:25px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enqForm
+{
+    margin-bottom: 80px;
+}
+.label-custom {
+    /* Your custom label styles here */
+    color: #333;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    /* Add any other custom styles as needed */
+  }
+  .formControl
+  {
+    border-radius: 10px;
+    padding:10px;
+  }
+  
+  .closeButton
+  {
+    text-align:right;
+    border:2px solid rgb(255, 213, 0);
+    text-decoration: none;;
+    cursor: pointer;
+    color:black;
+    font-weight: 700;
+    padding:7px;
+    margin:4px;
+    border-radius: 4px;;
+    color:grey;
+  }
